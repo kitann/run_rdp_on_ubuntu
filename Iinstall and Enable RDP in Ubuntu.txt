@@ -1,0 +1,34 @@
+================================
+INSTALL AND ENABLE RDP IN UBUNTU 
+================================
+
+Update the OD:
+	-	sudo apt update
+	
+Install the XRDP package
+	-	sudo apt install xrdp
+	
+Enable the XRDP package
+	-	sudo systemctl enable --now xrdp
+	
+Open port 3389 in FIREWALL
+	-	sudo ufw allow from any to any port 3389 proto tcp
+	
+Get Ubuntu  IP Address using:
+	- IP Address
+	
+Open RDP in Windows and enter the Ubuntu IP Address
+
+Use Xorg in the GUI display
+Username: is Ubun Username
+Password: is Ubuntu Password
+
+Potential Issues: (BLCK SCREEN)
+===============================
+Ensure you logout of the Ubuntu machine before you login via RDP
+
+NOTE: Ensure you logout of the RDP session so you can login to the Ubuntu station
+
+https://www.youtube.com/watch?v=IlsPwrYqz70
+
+Thanks
